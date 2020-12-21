@@ -9,7 +9,7 @@ import Launch from "./components/launch.jsx";
 
 const client = new ApolloClient({
   uri: "/graphql", // ON Prod cauz the proxy was added in the client package.json
-  // uri: "http://localhost:4000/graphql", ONLY ON LOCAL
+  // uri: "http://localhost:5000/graphql", ONLY ON LOCAL
 });
 
 function App() {
